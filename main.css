@@ -1,0 +1,33 @@
+body{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 1vw;
+  font-family: helvetica;
+}
+
+a{
+  margin-top: 3vw;
+
+  text-decoration: none;
+  font-size: 3vw;
+  color: black;
+
+  padding: 2vw;
+  transition: 0.5s;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+a:hover{
+  color: darkred;
+}
+
+h1{
+  font-size: 4vw;
+  padding: 2vw;
+}
+
+p{
+  font-size: 2vw;
+  padding-left: 2vw;
+}
